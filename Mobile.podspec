@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Mobile"
-  spec.version      = "0.0.1"
-  spec.summary      = "This go-fule mobile package for ios"
+  spec.version      = "0.0.3"
+  spec.summary      = "This package provides fula protocols"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -131,11 +131,11 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  #spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  # spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'ios-arm64' }
+  #spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'ios-arm64' }
 
 end
